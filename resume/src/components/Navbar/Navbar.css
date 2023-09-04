@@ -1,0 +1,77 @@
+.Nav
+{
+    height: 50px;
+    background-color: white;
+}
+.links
+{
+    float: right;
+    margin-right: 200px;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+.links ul li
+{
+    display: inline-block;
+    margin-left: 120px;
+    color:black;
+}
+.links ul li:hover, #download
+{
+    cursor: pointer;
+}
+#drop
+{
+    position: absolute;
+    border: solid;
+    margin-right: 60px;
+    display: inline;
+    width: 100%;
+}
+#logo
+{
+    width: 50px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.dropdownresume.inactive, .dropdowncov.inactive
+{
+    display: none;
+}
+.dropdownresume.active, .dropdowncov.active
+{
+    position: absolute;
+    top:50px;
+    width:200px;
+    border: solid;
+    border-radius: 10px;
+    border-color:  rgb(22, 189, 189);
+    background-color: rgb(22, 189, 189);
+}
+#download
+{
+    background-color: transparent;
+    border: transparent;
+}
+.dropdownresume.active ul li, .dropdowncov.active ul li
+{
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+.dropdownresume.inactive ul li, .dropdowncov.inactive ul li
+ {
+    display: none;
+}
+.dropdownresume.active ul li:hover, .dropdowncov.active ul li:hover
+{
+    box-shadow: 0 5px 15px #afe0f5;
+    background-color: aqua;
+    color: white;
+}
+.dropdowncov.active ul, .dropdownresume.active ul
+{
+    padding: 0;
+}

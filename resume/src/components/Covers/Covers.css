@@ -1,0 +1,102 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.Cover {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.ContactInfo {
+    margin-bottom: 20px;
+}
+
+.ContactInfo h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ContactInfo p {
+    font-size: 18px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.Footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Footer a {
+    text-decoration: none;
+    color: #007acc;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.Footer a:hover {
+    text-decoration: underline;
+}
+
+.CoverContent {
+    margin: 20px;
+}
+
+.Section {
+    margin-bottom: 20px;
+}
+
+.Section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Section p {
+    font-size: 18px;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.DownloadButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.DownloadButton:hover {
+    background-color: #005a9e;
+}
+.Header p {
+    color: #ffffff5e; 
+    font-size: 18px;
+    text-align: center;
+    margin: 5px 0;
+}
+@media print {
+    .hide-on-print {
+        display: none !important;
+    }
+}

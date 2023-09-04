@@ -1,0 +1,37 @@
+.container{
+    width: 100%;
+    height: 95vb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(
+        to right,
+        aqua 25%,
+        rgb(28, 180, 180) 50%,
+        rgb(9, 115, 115) 75%,
+        rgb(3, 66, 66) 100%
+      );
+}
+.aboutheader{
+    text-align: center;
+    color: rgb(12, 30, 40);
+    font-style: italic;
+}
+.pabout{
+    font-style: italic;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+.pcontainer{
+    margin-top: 50px;
+    padding: 0px 20px;
+    margin:0px 50px;
+    border-radius: 30px;
+    background-color: rgb(11, 23, 48);
+    transition: all 1s ease;
+}
+.pcontainer:hover{
+   transform: scale(1.05);
+}

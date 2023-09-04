@@ -1,0 +1,58 @@
+
+.homePage
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 900px;
+    width: 100%;
+    background: linear-gradient(
+        to right,
+        black 0%,
+        black 50%,
+        aqua 50%,
+        rgb(9, 115, 115) 100%
+      );
+      pad: 0;
+      margin: 0;
+}
+.Intro
+{
+    color: white;
+    margin-left: 300px;
+    display: block;
+    width:700px;
+    margin-top: 200px;
+    border: transparent;
+}
+#title1, #title2
+{
+    color:white;
+    border: none;
+    font-weight: bolder;
+}
+#title1
+{
+    font-size: 30px;
+    display: inline;
+    margin-right: 300px;
+}
+#title2
+{
+    font-size: 50px;
+    color: rgb(9, 115, 115);
+}
+#res
+{
+    margin-left: 120px;
+    margin-top: 200px;
+}
+#ph
+{
+    height: 30%;
+}
+#para1
+{
+    padding-top: 30px;
+    color: white;
+    width: 100%;
+}

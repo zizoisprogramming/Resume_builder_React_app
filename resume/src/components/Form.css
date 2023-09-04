@@ -1,0 +1,192 @@
+.hambola{
+    color: aqua;
+}
+.Header{
+    background-color: black;
+   
+   
+   align-content: center;
+}
+.page{
+display: grid;
+min-height: 100vh;
+max-height: 100%;
+grid-template-rows: 1fr 3fr;
+width: 100%;
+/* background: linear-gradient(
+        to right,
+        black 0%,
+        black 33%,
+        aqua 33%,
+        rgb(9, 115, 115) 100%
+      ); */
+      background: linear-gradient(
+        to right,
+        aqua 0%, rgb(9, 115, 115) );
+}
+.form{
+    background: linear-gradient(
+        to right,
+        aqua 0%, rgb(9, 115, 115) 100%
+    );
+    /* background-color: rgb(38, 91, 138); */
+    text-align: center;
+   /* padding: 5%; */
+}
+h2{
+    margin: 10px;
+    color:white;
+    font-size: 40px;
+}
+.h2{
+    margin: 10px;
+    color:white;
+    font-size: 40px;
+    display: block;
+}
+label{
+    font-size: larger;
+   margin: 10px;
+    color: black;
+}
+h1{
+    margin: 0px;
+    color: rgb(9, 115, 115);
+    font-size: 60px;
+}
+.text{
+   font-size: large;
+   color: rgb(9, 115, 115);
+    border-radius: 50px;
+    height: 20px;
+    width: 70%;
+    padding: 5px;
+    margin: 10px;
+   text-align: center;
+   border: 5px rgb(9, 115, 115) solid;
+}
+.entry{
+   margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.number{
+    border-radius: 10px;
+  
+}
+h3{
+    color: black;
+}
+.but, .submitbut.active
+{
+    border-radius: 20px;
+    color:rgb(9, 115, 115) ;
+    height: 40px;
+    width: 60px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   border: 2px rgb(9, 115, 115) solid;
+}
+.but:hover, .submitbut.active:hover, .buts:hover
+{
+    background-color: rgb(9, 115, 115);
+    color: white;
+    border: 2px white solid;
+    transform: scale(1.1);
+}
+.buts
+{
+    position: absolute;
+    bottom: 200px;
+    right: 600px;
+    border-radius: 20px;
+    color:rgb(9, 115, 115) ;
+    height: 100px;
+    width: 300px;
+}
+.UL1{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+.UL2{
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.UL3{
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr ; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.UL4{
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.UL6, .UL7
+{
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr ; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.hide{
+    display: none;
+}
+.Buttons{
+    border-radius: 50px;
+    width:20%;
+   margin-left: auto;
+   margin-right: auto;
+   /* padding: 5%; */
+  /* margin-bottom: 10%; */
+    height: fit-content;
+    /* background-color:rgb(10, 73, 112); */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+.ProSum{
+    padding: 2%;
+    font-size: x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(9, 115, 115) ;
+    /* resize: none; */
+    border-radius: 20px;
+    border: 5px rgb(9, 115, 115) solid;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 60%;
+}
+.skill{
+    font-size: large;
+   color: rgb(9, 115, 115);
+    border-radius: 50px;
+    height: 20px;
+    width: 30%;
+    padding: 5px;
+   text-align: center;
+   border: 5px rgb(9, 115, 115) solid;
+   margin: 10px;
+}
+.submitbut.inactive
+{
+    display: none;
+}
